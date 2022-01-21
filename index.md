@@ -1,14 +1,21 @@
 <html>
-<title>
-  First Website
-</title>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Artifact 01">
+  <meta name="keywords" content="HTML">
+  <meta name="author" content="Megan Hastings">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 03 Assignment</title>
+  <link rel="Stylesheet" href="main.css" type="text/css">
+  <title>First Website</title>
+</head>
 
 <body>
   
   <h1>Intro to Web Development</h1>
-  <hr width=400>
-  <h2>Megan Hastings</h2>
 
+  <h2>Megan Hastings</h2>
 
   <h2>Homework:</h2>
 
