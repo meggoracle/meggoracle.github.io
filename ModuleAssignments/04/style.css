@@ -1,0 +1,83 @@
+* {
+    font-family: 'SomeTimeLaterRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: wider;
+    color: #e0d5be;
+    text-align: center;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(images/Sky.jpg);
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+
+h1 {
+    font-size: 400%;
+    text-shadow: 2px 2px 8px black;
+}
+
+#content {
+    overflow: auto;
+}
+
+#nav,
+#feature,
+#footer {
+    margin: 1%;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    font-size: 180%;
+}
+
+.column1 {
+    background-color: #967070;
+}
+
+.column2 {
+    background-color: #506b6b;
+}
+
+.column3 {
+    margin-right: 0%;
+    background-color: #405c7f;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav {
+    font-size: 180%;
+}
+
+#nav,
+#footer {
+    background-color: #6c93a3;
+    padding: 0.5em 0;
+}
+
+#feature,
+.article {
+    height: 80%;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 50%
+}
+
+#feature {
+    background-color: #87577A;
+    font-size: 140%;
+}
