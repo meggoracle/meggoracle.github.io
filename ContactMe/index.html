@@ -35,7 +35,7 @@
         <div id="feature">
 
             <!--Form-->
-            <form name="ContactForm"  action="thankyou.html" onsubmit="return validate();">
+            <form name="ContactForm" action="thankyou.html" onsubmit="return validate();">
                 <p>
                     <label for="FirstName">First Name:</label>
                     <input type="text" id="FirstName" name="FirstName" />
@@ -54,7 +54,7 @@
                 </p>
                 <p>
                     <label for="Address">Address:</label>
-                    <input type="text" id="Address" name="Address"/>
+                    <input type="text" id="Address" name="Address" />
                 </p>
                 <p>
                     <label for="City">City:</label>
@@ -119,7 +119,7 @@
                 </p>
                 <p>
                     <label for="Country">Country:</label>
-                    <select id="Country"  name="Country">
+                    <select id="Country" name="Country">
                         <option value="" selected="selected">Select One</option>
                         <option value= "AFG">Afghanistan</option> 
                         <option value= "ALB">Albania</option> 
@@ -371,7 +371,7 @@
                 </p>
                 <p>
                     <label for="ZipCode">ZipCode:</label>
-                    <input type="text" id="ZipCode" name="ZipCode"/>
+                    <input type="text" id="ZipCode" name="ZipCode" />
                 </p>
                 <p>
                     <label for="Username">Username:</label>
@@ -382,15 +382,17 @@
                     <input type="text" id="Password" name="Password" />
                 </p>
                 <p>
-                    <label for="Comments">Comments:</label>
+                    <label for="Comments">Comments:</label><br>
                     <textarea id="Comments" name="Comments"></textarea>
                 </p>
                 <p>
-                    <input id="submit" type="submit" name="submit" value="Submit" >
+                    <input id="submit" type="submit" name="submit" value="Submit">
                 </p>
-            <!--Error Messages-->
-            <div class="ErrorsHeader" id="ErrorsHeader"></div>
-            <div class="warning" id="errorMessages"></div>
+                <!--Error Messages-->
+                <div id="ErrorChunk">
+                    <div class="ErrorsHeader" id="ErrorsHeader"></div>
+                    <div class="warning" id="errorMessages"></div>
+                </div>
             </form>
         </div>
     </div>
