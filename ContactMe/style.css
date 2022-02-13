@@ -80,6 +80,13 @@ img {
     border-radius: 10px;
 }
 
+input[type=text]{
+    color: black;
+    font-size: 60%;
+    font-weight: bolder;
+    background-color: #e0d5be;
+}
+
 input[type=submit] {
     background-color: black;
 }
@@ -87,3 +94,8 @@ input[type=submit] {
 a {
     text-decoration: none;
 }
+
+.warning,
+#errorMessages{
+    color: purple;
+    }
