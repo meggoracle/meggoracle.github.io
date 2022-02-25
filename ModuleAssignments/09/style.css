@@ -1,0 +1,30 @@
+* {
+    font-family: 'NotoSansExtraCondensedThin';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    height: 200px;
+    background: darkolivegreen;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background: antiquewhite;
+    position: absolute;
+}
+
+h1 {
+    font-size: 300%;
+    color: antiquewhite;
+}
+
+button {
+    font-size: 200%;
+    background-color: black;
+    color: antiquewhite;
+}

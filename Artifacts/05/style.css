@@ -1,0 +1,22 @@
+* {
+    font-family: 'NotoSansExtraCondensedThin';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    background-color: darkolivegreen;
+    color: antiquewhite;
+    font-size: 150%;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 150%;
+}
+
+button {
+    background-color: black;
+    color: antiquewhite;
+}
