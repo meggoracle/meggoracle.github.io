@@ -15,9 +15,18 @@ h1 {
     font-size: 400%;
     background-color: hsla(87, 53%, 7%, 0.5);
     border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
     color: #e0d5be;
 }
-
+h2{
+    font-size: 300%;
+    border-radius: 10px;
+    color: #e0d5be;
+    background-color: hsla(87, 53%, 7%, 0.5);
+    width: 25%;
+    margin-left: 40%;
+}
 #content {
     overflow: auto;
 }
@@ -86,6 +95,14 @@ img {
 
 label {
     color: #e0d5be;
+    width: 25%;
+    margin-left: -25%;
+    text-align: right;
+    display: inline-block; 
+
+}
+#CommentLabel{
+margin-left: -15%;
 }
 
 #Country,
@@ -95,13 +112,17 @@ label {
     font-size: 60%;
     font-weight: bolder;
     background-color: #e0d5be;
+    width: 250px;
 }
-
+#Comments{
+    height: 25%;
+}
 option {
     color: black;
     font-size: 110%;
     font-weight: bolder;
     background-color: #e0d5be;
+    display: inline-block; 
 }
 
 input[type=text] {
@@ -109,11 +130,17 @@ input[type=text] {
     font-size: 60%;
     font-weight: bolder;
     background-color: #e0d5be;
+    display: inline-block; 
+    width: 250px;
 }
 
 input[type=submit] {
     background-color: black;
-    color: #e0d5be;
+    color: #e0d5be;    
+    display: inline-block; 
+    width: 210px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 a {
