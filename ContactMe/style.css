@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(../images/B3679629-DA31-44DF-BBCD-CEFB74D015F8.jpg);
+    background-image: url(../images/trees.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -15,11 +15,32 @@ h1 {
     font-size: 400%;
     background-color: hsla(87, 53%, 7%, 0.5);
     border-radius: 10px;
+    margin: auto;
     color: #e0d5be;
+}
+
+h2 {
+    font-size: 300%;
+    border-radius: 10px;
+    color: #e0d5be;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+
+h3 {
+    color: #ebe6d6;
+    background-color: rgb(22, 90, 153);
+    font-size: 150%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 0%;
 }
 
 #content {
     overflow: auto;
+    margin-top: 0%;
 }
 
 #nav,
@@ -70,22 +91,25 @@ img {
 #feature {
     background-color: #3c5829;
     font-size: 140%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 50%;
+    margin: auto;
     border-radius: 10px;
 }
 
 #links {
     background-color: #3c5829;
     font-size: 140%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
     border-radius: 10px;
     color: #e0d5be;
 }
 
 label {
     color: #e0d5be;
+    width: 25%;
+    margin-left: -15%;
+    text-align: right;
+    display: inline-block;
 }
 
 #Country,
@@ -94,26 +118,39 @@ label {
     color: black;
     font-size: 60%;
     font-weight: bolder;
-    background-color: #e0d5be;
+    background-color: #ebe6d6;
+    width: 250px;
+}
+
+#Comments {
+    height: 20px;
 }
 
 option {
     color: black;
     font-size: 110%;
     font-weight: bolder;
-    background-color: #e0d5be;
+    background-color: #ebe6d6;
+    display: inline-block;
 }
 
 input[type=text] {
     color: black;
     font-size: 60%;
     font-weight: bolder;
-    background-color: #e0d5be;
+    background-color: #ebe6d6;
+    display: inline-block;
+    width: 250px;
 }
 
 input[type=submit] {
-    background-color: black;
-    color: #e0d5be;
+    background-color: rgb(15, 36, 7);
+    color: #ebe6d6;
+    font-size: 100%;
+    display: inline-block;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
 }
 
 a {
@@ -121,7 +158,23 @@ a {
     color: #e0d5be;
 }
 
+h3 {
+    color: #ebe6d6;
+    background-color: rgba(6, 14, 19, 0.315);
+    font-size: 130%;
+    margin: auto;
+    border-radius: 10px;
+    width: 33.3%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
 #ErrorChunk {
-    color: #ff5e5e;
+    color: #ebe6d6;
     font-weight: bolder;
+    background-color: hsla(219, 100%, 30%, 0.705);
+    border-radius: 10px;
+    font-size: 90%;
+    width: 70%;
+    margin: auto;
 }

@@ -58,7 +58,7 @@ function validate() {
 
     if (errorMessages.length > 0) {
         var errorMessageHTML = "";
-        var ErrorHeader = "<h2>Error Submitting!</h2><h3>See Below:</h3>";
+        var ErrorHeader = "<h3>Error Submitting!</h3><h3>See Below:</h3>";
         for (var i = 0; i < errorMessages.length; i++) {
             errorMessageHTML += "<p>" + errorMessages[i] + "</p>";
         }

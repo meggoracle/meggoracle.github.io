@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../images/B3679629-DA31-44DF-BBCD-CEFB74D015F8.jpg);
+    background-image: url(../images/trees.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -82,4 +82,12 @@ img {
 
 a {
     text-decoration: none;
+}
+#caption{
+    background-color: #31470c;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 200%;
+    margin:auto;
 }
