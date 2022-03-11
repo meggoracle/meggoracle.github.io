@@ -61,7 +61,7 @@ li {
 }
 
 img {
-    width: 50%
+    width: 50%;
 }
 
 #feature {
@@ -83,11 +83,12 @@ img {
 a {
     text-decoration: none;
 }
-#caption{
+
+#caption {
     background-color: #31470c;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
     font-size: 200%;
-    margin:auto;
+    margin: auto;
 }
