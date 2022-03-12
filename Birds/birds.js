@@ -1,8 +1,8 @@
-var myImages = ["images/Thrush.jpeg", "images/Cormorant.jpg"]
+var myImages = ["images/Downy.jpeg", "images/Flicker.jpeg", "images/Goldfinch.jpeg", "images/Grosbeak.jpeg", "images/Heron.jpeg", "images/Jay.jpeg", "images/Kestrel.jpeg", "images/Starling.jpeg", "images/Turkeys.jpeg", "images/Waxwing.jpeg"]
 
-var altImages = ["Varied Thrush on a snowy tree", "Sihlouette of Double Crested Cormorant on the water."]
+var altImages = ["Downy Woodpecker", "Red Shafted Northern Flicker", "American Goldfinch", "Evening Grosbeak", "Great Blue Heron", "Western Scrub Jay", "American Kestrel", "European Starling", "Wild Turkeys", "Cedar Waxwing"]
 
-var captionImages = ["Varied Thrush", "Double Crested Cormorant"];
+var captionImages = ["Downy Woodpecker", "Red Shafted Northern Flicker", "American Goldfinch", "Evening Grosbeak", "Great Blue Heron", "Western Scrub Jay", "American Kestrel", "European Starling", "Wild Turkeys", "Cedar Waxwing"];
 
 var index = 0;
 
@@ -21,7 +21,7 @@ function next() {
 }
 
 function autoSlide() {
-        next();
+    next();
 }
 
 
