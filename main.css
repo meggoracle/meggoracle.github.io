@@ -33,26 +33,14 @@ h2 {
     margin-bottom: 0%;
 }
 
-#content {
-    overflow: auto;
-}
-
 #nav,
 #feature,
 #footer {
-    margin: 1%;
+    margin: auto;
 }
 
-.column1,
-.column2,
-.column3 {
-    width: 25%;
-    float: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    font-size: 180%;
-    background-color: #31470c;
-    border-radius: 10px;
+ul {
+    padding-left: 0%;
 }
 
 li {
@@ -68,6 +56,7 @@ li {
 
 #nav {
     font-size: 150%;
+    width: fit-content;
 }
 
 #nav,
@@ -77,6 +66,11 @@ li {
     border-radius: 10px;
 }
 
+#content {
+    overflow: auto;
+    height: min-content;
+}
+
 #feature,
 .article {
     height: 80%;
@@ -84,8 +78,10 @@ li {
 }
 
 img {
-    width: 80%;
-    height: 80%;
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #feature {
@@ -103,4 +99,12 @@ img {
 
 a {
     text-decoration: none;
+}
+
+p {
+    width: 30%;
+    background-color: #101f08;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
 }

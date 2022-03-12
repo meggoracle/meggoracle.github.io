@@ -22,24 +22,37 @@ h1 {
     padding-right: 10px;
 }
 
-#content {
-    overflow: auto;
-}
-
 #nav,
 #feature,
 #footer {
-    margin: 1%;
+    margin: auto;
 }
 
 ul {
     padding-left: 0%;
 }
 
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
 #navLinks {
     padding-left: 0%;
     width: fit-content;
     margin: auto;
+}
+
+#nav {
+    font-size: 150%;
+    width: fit-content;
+}
+
+#nav,
+#footer {
+    background-color: #101f08;
+    padding: 0.5em 0;
+    border-radius: 10px;
 }
 
 .column1,
@@ -50,22 +63,6 @@ ul {
     margin: 1%;
     font-size: 180%;
     background-color: #31470c;
-}
-
-li {
-    display: inline;
-    padding: 0.5em;
-}
-
-#nav {
-    font-size: 150%;
-}
-
-#nav,
-#footer {
-    background-color: #101f08;
-    padding: 0.5em 0;
-    border-radius: 10px;
 }
 
 #feature,

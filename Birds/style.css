@@ -51,6 +51,23 @@ ul {
     margin: auto;
 }
 
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+#nav {
+    font-size: 150%;
+    width: fit-content;
+}
+
+#nav,
+#footer {
+    background-color: #101f08;
+    padding: 0.5em 0;
+    border-radius: 10px;
+}
+
 .column1,
 .column2,
 .column3 {

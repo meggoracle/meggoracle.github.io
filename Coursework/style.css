@@ -22,33 +22,22 @@ h1 {
     padding-right: 10px;
 }
 
-#content {
-    overflow: auto;
-}
+
+/* Nav Bar */
 
 #nav,
 #feature,
 #footer {
-    margin: 1%;
+    margin: auto;
 }
 
-.column1,
-.column2,
-.column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;
-    font-size: 180%;
-    background-color: #31470c;
+ul {
+    padding-left: 0%;
 }
 
 li {
     display: inline;
     padding: 0.5em;
-}
-
-ul {
-    padding-left: 0%;
 }
 
 #navLinks {
@@ -59,6 +48,7 @@ ul {
 
 #nav {
     font-size: 150%;
+    width: fit-content;
 }
 
 #nav,
@@ -66,6 +56,23 @@ ul {
     background-color: #101f08;
     padding: 0.5em 0;
     border-radius: 10px;
+}
+
+
+/* Page Content */
+
+#content {
+    overflow: auto;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    font-size: 180%;
+    background-color: #31470c;
 }
 
 #feature,
