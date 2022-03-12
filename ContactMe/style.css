@@ -202,3 +202,11 @@ a {
     margin-top: 0%;
     margin-bottom: 0%;
 }
+
+#Thanks {
+    background-color: #3c5829;
+    font-size: 140%;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}

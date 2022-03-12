@@ -100,9 +100,9 @@ a {
     text-decoration: none;
 }
 
-p {
+#Words {
     width: 30%;
-    background-color: #101f08;
+    background-color: #3c5829;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
