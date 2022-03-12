@@ -106,11 +106,11 @@ a {
     text-decoration: none;
 }
 
-#ArtLinks {
+.ArtLinks {
     text-decoration: underline;
 }
 
-#Description {
+.Description {
     font-size: 80%;
     border-radius: 25px;
     margin-top: 1px;
