@@ -35,25 +35,25 @@ h2 {
     overflow: auto;
 }
 
-ul {
-    padding-left: 0%;
-}
-
-#navLinks {
-    padding-left: 0%;
-    width: fit-content;
-    margin: auto;
-}
-
 #nav,
 #feature,
 #footer {
     margin: auto;
 }
 
+ul {
+    padding-left: 0%;
+}
+
 li {
     display: inline;
     padding: 0.5em;
+}
+
+#navLinks {
+    padding-left: 0%;
+    width: fit-content;
+    margin: auto;
 }
 
 #nav {
@@ -135,4 +135,11 @@ a {
 #title {
     font-size: 160%;
     margin: auto;
+}
+
+#FooterHeader {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }

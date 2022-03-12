@@ -100,3 +100,10 @@ img {
 a {
     text-decoration: none;
 }
+
+#FooterHeader {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

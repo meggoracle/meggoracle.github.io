@@ -12,6 +12,9 @@ body {
     background-repeat: no-repeat;
 }
 
+
+/* Header */
+
 h1 {
     font-size: 400%;
     background-color: #3c5829e3;
@@ -21,6 +24,9 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+
+/* Nav Bar */
 
 #nav,
 #feature,
@@ -54,6 +60,9 @@ li {
     padding: 0.5em 0;
     border-radius: 10px;
 }
+
+
+/* Page Content */
 
 .column1,
 .column2,
@@ -108,4 +117,11 @@ a {
     margin-top: 1px;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+#FooterHeader {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }

@@ -12,6 +12,9 @@ body {
     background-repeat: no-repeat;
 }
 
+
+/* Header */
+
 h1 {
     font-size: 400%;
     background-color: #3c5829e3;
@@ -32,6 +35,9 @@ h2 {
     margin-right: 40%;
     margin-bottom: 0%;
 }
+
+
+/* Nav Bar */
 
 #nav,
 #feature,
@@ -66,15 +72,13 @@ li {
     border-radius: 10px;
 }
 
+
+/* Page Content */
+
 #content {
+    font-size: 150%;
     overflow: auto;
     height: min-content;
-}
-
-#feature,
-.article {
-    height: 80%;
-    margin-bottom: 1em;
 }
 
 img {
@@ -82,11 +86,6 @@ img {
     height: 200px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-#feature {
-    background-color: #87577A;
-    font-size: 140%;
 }
 
 #links {
@@ -107,4 +106,11 @@ p {
     margin: auto;
     border-radius: 10px;
     padding: 10px;
+}
+
+#FooterHeader {
+    font-size: 200%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
