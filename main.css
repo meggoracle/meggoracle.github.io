@@ -14,12 +14,17 @@ body {
 
 h1 {
     font-size: 400%;
-    background-color: hsla(87, 53%, 7%, 0.5);
+    background-color: #3c5829e3;
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2 {
     font-size: 300%;
-    background-color: #3c5829;
+    background-color: #3c5829e3;
     border-radius: 10px;
     color: #e0d5be;
     width: 20%;
@@ -53,6 +58,12 @@ h2 {
 li {
     display: inline;
     padding: 0.5em;
+}
+
+#navLinks {
+    padding-left: 0%;
+    width: fit-content;
+    margin: auto;
 }
 
 #nav {

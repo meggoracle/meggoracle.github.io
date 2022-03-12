@@ -14,8 +14,12 @@ body {
 
 h1 {
     font-size: 400%;
-    background-color: hsla(87, 53%, 7%, 0.5);
+    background-color: #3c5829e3;
     border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #content {
@@ -26,6 +30,16 @@ h1 {
 #feature,
 #footer {
     margin: 1%;
+}
+
+ul {
+    padding-left: 0%;
+}
+
+#navLinks {
+    padding-left: 0%;
+    width: fit-content;
+    margin: auto;
 }
 
 .column1,
@@ -61,7 +75,7 @@ li {
 }
 
 img {
-    width: 50%
+    width: 40%
 }
 
 #feature {
@@ -78,8 +92,23 @@ img {
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 a {
     text-decoration: none;
+}
+
+#ArtLinks {
+    text-decoration: underline;
+}
+
+#Description {
+    background-color: #22300965;
+    font-size: 80%;
+    border-radius: 25px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    padding: 10px;
 }

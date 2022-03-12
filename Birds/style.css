@@ -14,18 +14,41 @@ body {
 
 h1 {
     font-size: 400%;
-    background-color: hsla(87, 53%, 7%, 0.5);
+    background-color: #3c5829e3;
     border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 300%;
+    border-radius: 10px;
+    color: #e0d5be;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 0%;
 }
 
 #content {
     overflow: auto;
 }
 
+ul {
+    padding-left: 0%;
+}
+
+#navLinks {
+    padding-left: 0%;
+    width: fit-content;
+    margin: auto;
+}
+
 #nav,
 #feature,
 #footer {
-    margin: 1%;
+    margin: auto;
 }
 
 .column1,
@@ -45,6 +68,7 @@ li {
 
 #nav {
     font-size: 150%;
+    width: fit-content;
 }
 
 #nav,
@@ -54,22 +78,18 @@ li {
     border-radius: 10px;
 }
 
-#feature,
-.article {
-    height: 80%;
-    margin-bottom: 1em;
-}
-
 img {
     width: 50%;
+    padding: 0%;
 }
 
 #feature {
-    background-color: #3c5829;
+    background-color: #3c5829f3;
     font-size: 140%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: auto;
     border-radius: 10px;
+    width: 60%;
+    margin-bottom: 10px;
 }
 
 #links {
@@ -85,10 +105,17 @@ a {
 }
 
 #caption {
-    background-color: #31470c;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 200%;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+}
+
+#slides {
+    margin-top: 10px;
+}
+
+#title {
+    font-size: 160%;
     margin: auto;
 }
