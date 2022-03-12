@@ -143,3 +143,10 @@ a {
     margin-top: 0%;
     margin-bottom: 0%;
 }
+
+#BirdLink {
+    background-color: #101f08;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+}
