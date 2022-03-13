@@ -7,9 +7,11 @@
 }
 
 body {
-    background-image: url(images/trees.jpg);
-    background-size: cover;
+    background-image: url(../images/trees.jpg);
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
