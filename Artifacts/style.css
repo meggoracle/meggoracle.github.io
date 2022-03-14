@@ -87,36 +87,12 @@ li {
 
 /* Page Content */
 
-.column1,
-.column2,
-.column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;
-    font-size: 180%;
-    background-color: #31470c;
-}
-
-#feature,
-.article {
-    height: 80%;
-    margin-bottom: 1em;
-}
-
 img {
     width: 40%
 }
 
-#feature {
-    background-color: #3c5829f3;
-    font-size: 140%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 10px;
-}
-
 #links {
-    background-color: #3c5829;
+    background-color: #3c5829e3;
     font-size: 140%;
     margin-left: 25%;
     margin-right: 25%;
@@ -134,7 +110,7 @@ a {
 }
 
 .Description {
-    font-size: 80%;
+    font-size: 90%;
     border-radius: 25px;
     margin-top: 1px;
     margin-bottom: 20px;
