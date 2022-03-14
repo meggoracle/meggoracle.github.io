@@ -84,6 +84,19 @@ li {
     border-radius: 10px;
 }
 
+#footer {
+    width: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 0%;
+    padding-bottom: 5px;
+}
+
+#Copy {
+    margin-bottom: 0%;
+    margin-top: 0px;
+}
+
 
 /* Page Content */
 
