@@ -77,6 +77,13 @@ li {
     margin-top: 0px;
 }
 
+#FooterHeader {
+    font-size: 120%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 
 /* Page Content */
 
@@ -94,14 +101,6 @@ li {
 
 a {
     text-decoration: none;
-}
-
-#FooterHeader {
-    color: #ebe6d6;
-    font-size: 200%;
-    padding: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
 }
 
 video {

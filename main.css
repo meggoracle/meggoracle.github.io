@@ -88,6 +88,13 @@ li {
     margin-top: 0px;
 }
 
+#FooterHeader {
+    font-size: 120%;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
 
 /* Page Content */
 
@@ -122,16 +129,4 @@ a {
     margin: auto;
     border-radius: 10px;
     padding: 10px;
-}
-
-#FooterHeader {
-    font-size: 120%;
-    padding: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-}
-
-#Copy {
-    margin-bottom: 0%;
-    margin-top: 0px;
 }
